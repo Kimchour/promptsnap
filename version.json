@@ -1,20 +1,17 @@
 {
-  "version": "1.9.0",
+  "version": "2.0.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "New sounds, animation controls and a big performance pass.",
+  "notes": "Canva integration and guardrail alerts.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Distinct sounds for update found, update installed and failed actions",
-    "Animation setting with four levels \u2014 Full, Reduced, Minimal, Off",
-    "Floating button now has orbiting sparks and a softer compound float",
-    "Confetti and particle counts scale with the animation level"
+    "Detects your open Canva designs and lists them by name",
+    "Send to Canva button appears on the finish screen once an image is ready",
+    "Canva section in the panel with a design dropdown and refresh",
+    "Guardrail alert when ChatGPT refuses an image, with the failed sound"
   ],
   "fixed": [
-    "Progress scanning rewritten to walk text nodes instead of every element",
-    "Mutation bursts collapsed into one pass per frame",
-    "DOM queries cached, idle polling backs off when the tab is hidden",
-    "Image history capped so long chats no longer grow memory"
+    "Finish screen no longer auto-closes while a Send to Canva button is waiting"
   ],
   "content": null
 }
