@@ -1,6 +1,6 @@
 {
-  "version": "1.7.0",
-  "download_url": "https://raw.githubusercontent.com/Kimchour/promptsnap/main/promptsnap-extension.zip",
-  "notes": "Update notifications added. The tool now checks for new versions and tells you when one is ready.",
+  "version": "1.7.1",
+  "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
+  "notes": "Update feed is now built in — no more copying and pasting the URL.",
   "required": false
 }
