@@ -1,24 +1,18 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Canva integration, guardrail alerts, collapsible panel section.",
+  "notes": "Live Canva preview now keeps up with your edits.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Detects your open Canva designs and lists them by name",
-    "Selected design name shows in the Canva header row",
-    "Send to Canva button on the finish screen once an image is ready",
-    "Canva section collapses and expands with an animated arrow",
-    "Guardrail alert when ChatGPT refuses an image, with the failed sound",
-    "Sounds for update found, update installed and failed actions",
-    "Animation setting \u2014 Full, Reduced, Minimal, Off"
+    "Preview refreshes by itself when you edit, add or switch pages in Canva",
+    "Preview also re-checks whenever you come back to the ChatGPT tab",
+    "Thumbnail pulses green when the design has actually changed"
   ],
   "fixed": [
-    "Two copies of the image were being placed into Canva at once",
-    "Panel and finish-screen buttons could both send the same image",
-    "Canva section no longer squeezes the prompt area or blocks scrolling",
-    "Done animation no longer skipped in background tabs",
-    "Completion sound no longer fails silently"
+    "Preview thumbnail showed a black rectangle \u2014 Canva draws to a WebGL canvas that exports blank, so it now uses Canva's own page thumbnail instead",
+    "Preview only updated when you clicked refresh",
+    "Page numbers could come back empty on some layouts"
   ],
   "content": null
 }
