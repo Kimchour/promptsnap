@@ -1,6 +1,19 @@
 {
-  "version": "1.7.1",
+  "version": "1.8.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Update feed is now built in — no more copying and pasting the URL.",
-  "required": false
+  "notes": "Cleaner update flow with a proper changelog screen.",
+  "required": false,
+  "needs_reload": true,
+  "added": [
+    "Animated update screen showing old and new version side by side",
+    "What's new and What's fixed lists, straight from the release",
+    "Update feed URL is no longer shown anywhere in the interface",
+    "Presets and suggestions can now install themselves with no reinstall"
+  ],
+  "fixed": [
+    "Done animation no longer skipped in background tabs",
+    "Completion sound no longer fails silently",
+    "Fast generations are no longer missed by the tracker"
+  ],
+  "content": null
 }
