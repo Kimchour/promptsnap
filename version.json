@@ -1,19 +1,20 @@
 {
-  "version": "1.8.0",
+  "version": "1.9.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Cleaner update flow with a proper changelog screen.",
+  "notes": "New sounds, animation controls and a big performance pass.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Animated update screen showing old and new version side by side",
-    "What's new and What's fixed lists, straight from the release",
-    "Update feed URL is no longer shown anywhere in the interface",
-    "Presets and suggestions can now install themselves with no reinstall"
+    "Distinct sounds for update found, update installed and failed actions",
+    "Animation setting with four levels \u2014 Full, Reduced, Minimal, Off",
+    "Floating button now has orbiting sparks and a softer compound float",
+    "Confetti and particle counts scale with the animation level"
   ],
   "fixed": [
-    "Done animation no longer skipped in background tabs",
-    "Completion sound no longer fails silently",
-    "Fast generations are no longer missed by the tracker"
+    "Progress scanning rewritten to walk text nodes instead of every element",
+    "Mutation bursts collapsed into one pass per frame",
+    "DOM queries cached, idle polling backs off when the tab is hidden",
+    "Image history capped so long chats no longer grow memory"
   ],
   "content": null
 }
