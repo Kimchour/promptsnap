@@ -1,13 +1,13 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.2",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Clears the Canvas2D readback warning.",
+  "notes": "The close button actually closes the panel now.",
   "required": false,
   "needs_reload": true,
   "added": [],
   "fixed": [
-    "Canvas2D getImageData warning in the extension error list \u2014 the preview blank-check now does one readback on a willReadFrequently context instead of five separate pixel reads",
-    "Blank detection is more accurate, comparing a whole downscaled frame rather than five sample points"
+    "Close button did nothing \u2014 a layout rule added in 2.1 set display:flex on the panel unconditionally, overriding the rule that hides it, so the panel was pinned open no matter what",
+    "Canvas2D getImageData warning in the extension error list"
   ],
   "content": null
 }
