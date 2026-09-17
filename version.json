@@ -1,16 +1,66 @@
 {
-  "version": "2.3.0",
+  "version": "2.3.1",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Update button downloads the file for you.",
+  "notes": "Clearer update screen.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Update now downloads through Chrome automatically, named by version",
-    "Show the file button opens it in Explorer",
-    "Button straight to the extensions page for the reload"
+    "Update screen shows a single Installed pill when you're already current, instead of an arrow between two identical versions",
+    "Release notes are labelled \"In this version\" when up to date and \"What's new\" only when an update is waiting",
+    "Optional Earlier versions section listing past releases"
   ],
   "fixed": [
-    "Close button did nothing \u2014 a layout rule pinned the panel open"
+    "Changelog was misleading \u2014 it showed the current release's notes as if they were an incoming update"
+  ],
+  "history": [
+    {
+      "version": "2.3.0",
+      "added": [
+        "Update downloads through Chrome automatically",
+        "Show the file button opens it in Explorer"
+      ],
+      "fixed": [
+        "Close button did nothing \u2014 a layout rule pinned the panel open"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "added": [],
+      "fixed": [
+        "Canvas2D getImageData warning in the extension error list"
+      ]
+    },
+    {
+      "version": "2.2.0",
+      "added": [
+        "Canva design preview with thumbnail, name and page number"
+      ],
+      "fixed": [
+        "Preview stayed black after an edit",
+        "Close button hit area"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "added": [
+        "Collapsible Canva section",
+        "Live preview polling"
+      ],
+      "fixed": [
+        "Two copies of the image placed into Canva at once"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "added": [
+        "Canva integration",
+        "Guardrail alerts",
+        "Animation settings"
+      ],
+      "fixed": [
+        "Panel loading blank on ChatGPT"
+      ]
+    }
   ],
   "content": null
 }
