@@ -1,13 +1,16 @@
 {
-  "version": "2.2.2",
+  "version": "2.3.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "The close button actually closes the panel now.",
+  "notes": "Update button downloads the file for you.",
   "required": false,
   "needs_reload": true,
-  "added": [],
+  "added": [
+    "Update now downloads through Chrome automatically, named by version",
+    "Show the file button opens it in Explorer",
+    "Button straight to the extensions page for the reload"
+  ],
   "fixed": [
-    "Close button did nothing \u2014 a layout rule added in 2.1 set display:flex on the panel unconditionally, overriding the rule that hides it, so the panel was pinned open no matter what",
-    "Canvas2D getImageData warning in the extension error list"
+    "Close button did nothing \u2014 a layout rule pinned the panel open"
   ],
   "content": null
 }
