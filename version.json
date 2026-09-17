@@ -1,0 +1,16 @@
+{
+  "version": "2.3.0",
+  "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
+  "notes": "Update button downloads the file for you.",
+  "required": false,
+  "needs_reload": true,
+  "added": [
+    "Update now downloads through Chrome automatically, named by version",
+    "Show the file button opens it in Explorer",
+    "Button straight to the extensions page for the reload"
+  ],
+  "fixed": [
+    "Close button did nothing \u2014 a layout rule pinned the panel open"
+  ],
+  "content": null
+}
