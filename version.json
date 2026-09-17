@@ -1,18 +1,13 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.1",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Live Canva preview now keeps up with your edits.",
+  "notes": "Clears the Canvas2D readback warning.",
   "required": false,
   "needs_reload": true,
-  "added": [
-    "Preview refreshes by itself when you edit, add or switch pages in Canva",
-    "Preview also re-checks whenever you come back to the ChatGPT tab",
-    "Thumbnail pulses green when the design has actually changed"
-  ],
+  "added": [],
   "fixed": [
-    "Preview thumbnail showed a black rectangle \u2014 Canva draws to a WebGL canvas that exports blank, so it now uses Canva's own page thumbnail instead",
-    "Preview only updated when you clicked refresh",
-    "Page numbers could come back empty on some layouts"
+    "Canvas2D getImageData warning in the extension error list \u2014 the preview blank-check now does one readback on a willReadFrequently context instead of five separate pixel reads",
+    "Blank detection is more accurate, comparing a whole downscaled frame rather than five sample points"
   ],
   "content": null
 }
