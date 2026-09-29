@@ -1,18 +1,19 @@
 {
   "version": "2.4.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "No more false finish screens, and a live Canva view you can switch from the panel.",
+  "notes": "No more false finish screens, and a Canva preview that follows the page you're on.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Switch between open Canva designs right in the panel — one click, no trip to Canva",
-    "Canva preview updates live by itself when you edit, change page, or open/close a design",
-    "Live badge on the preview, plus a button to jump to that design in Canva",
-    "Bigger preview picture"
+    "Switch between open Canva designs right in the panel",
+    "‹ › arrows to flip pages in your Canva design without leaving ChatGPT",
+    "Canva preview updates by itself when you edit, change page, or open/close a design",
+    "Bigger preview picture, plus a button to jump to that design in Canva"
   ],
   "fixed": [
     "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
     "Canva section now stays collapsed until you open it",
+    "Canva preview showed the wrong page (the last one) instead of the page you're on",
     "Canva preview froze until you pressed Refresh"
   ],
   "history": [
