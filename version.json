@@ -14,7 +14,9 @@
     "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
     "Canva section now stays collapsed until you open it",
     "Canva preview showed the wrong page (the last one) instead of the page you're on",
-    "Canva preview froze until you pressed Refresh"
+    "Canva preview froze until you pressed Refresh",
+    "‹ › page arrows didn't move Canva — they now switch pages even while Canva is in the background",
+    "Canva preview showed a blank placeholder (P18) for designs in a background tab"
   ],
   "history": [
     {
