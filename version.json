@@ -12,6 +12,7 @@
   ],
   "fixed": [
     "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
+    "Your own uploaded image could trigger the \"Image Ready\" screen while ChatGPT was still generating",
     "Canva section now stays collapsed until you open it",
     "Canva preview showed the wrong page (the last one) instead of the page you're on",
     "Canva preview froze until you pressed Refresh",
