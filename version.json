@@ -1,18 +1,32 @@
 {
-  "version": "2.3.1",
+  "version": "2.4.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Clearer update screen.",
+  "notes": "No more false finish screens, and a live Canva view you can switch from the panel.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Update screen shows a single Installed pill when you're already current, instead of an arrow between two identical versions",
-    "Release notes are labelled \"In this version\" when up to date and \"What's new\" only when an update is waiting",
-    "Optional Earlier versions section listing past releases"
+    "Switch between open Canva designs right in the panel — one click, no trip to Canva",
+    "Canva preview updates live by itself when you edit, change page, or open/close a design",
+    "Live badge on the preview, plus a button to jump to that design in Canva",
+    "Bigger preview picture"
   ],
   "fixed": [
-    "Changelog was misleading \u2014 it showed the current release's notes as if they were an incoming update"
+    "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
+    "Canva section now stays collapsed until you open it",
+    "Canva preview froze until you pressed Refresh"
   ],
   "history": [
+    {
+      "version": "2.3.1",
+      "added": [
+        "Update screen shows a single Installed pill when you're already current, instead of an arrow between two identical versions",
+        "Release notes are labelled \"In this version\" when up to date and \"What's new\" only when an update is waiting",
+        "Optional Earlier versions section listing past releases"
+      ],
+      "fixed": [
+        "Changelog was misleading — it showed the current release's notes as if they were an incoming update"
+      ]
+    },
     {
       "version": "2.3.0",
       "added": [
@@ -20,7 +34,7 @@
         "Show the file button opens it in Explorer"
       ],
       "fixed": [
-        "Close button did nothing \u2014 a layout rule pinned the panel open"
+        "Close button did nothing — a layout rule pinned the panel open"
       ]
     },
     {
