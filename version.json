@@ -1,25 +1,35 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "No more false finish screens, and a Canva preview that follows the page you're on.",
+  "notes": "Sends the right image to Canva, smoother opening, roomier panel.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Switch between open Canva designs right in the panel",
-    "‹ › arrows to flip pages in your Canva design without leaving ChatGPT",
-    "Canva preview updates by itself when you edit, change page, or open/close a design",
-    "Bigger preview picture, plus a button to jump to that design in Canva"
+    "Panel opens with a smooth animation that grows out of the floating button, and shrinks back when closed",
+    "Bigger, roomier panel with larger text, buttons and Canva preview"
   ],
   "fixed": [
-    "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
-    "Your own uploaded image could trigger the \"Image Ready\" screen while ChatGPT was still generating",
-    "Canva section now stays collapsed until you open it",
-    "Canva preview showed the wrong page (the last one) instead of the page you're on",
-    "Canva preview froze until you pressed Refresh",
-    "‹ › page arrows didn't move Canva — they now switch pages even while Canva is in the background",
-    "Canva preview showed a blank placeholder (P18) for designs in a background tab"
+    "Send to Canva sometimes sent your input photo instead of the image ChatGPT generated"
   ],
   "history": [
+    {
+      "version": "2.4.0",
+      "added": [
+        "Switch between open Canva designs right in the panel",
+        "‹ › arrows to flip pages in your Canva design without leaving ChatGPT",
+        "Canva preview updates by itself when you edit, change page, or open/close a design",
+        "Bigger preview picture, plus a button to jump to that design in Canva"
+      ],
+      "fixed": [
+        "Clicking back to ChatGPT during a new job no longer fires the finish animation for the previous image",
+        "Your own uploaded image could trigger the \"Image Ready\" screen while ChatGPT was still generating",
+        "Canva section now stays collapsed until you open it",
+        "Canva preview showed the wrong page (the last one) instead of the page you're on",
+        "Canva preview froze until you pressed Refresh",
+        "‹ › page arrows didn't move Canva — they now switch pages even while Canva is in the background",
+        "Canva preview showed a blank placeholder (P18) for designs in a background tab"
+      ]
+    },
     {
       "version": "2.3.1",
       "added": [
