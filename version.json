@@ -1,17 +1,27 @@
 {
-  "version": "2.5.0",
+  "version": "2.5.1",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Sends the right image to Canva, smoother opening, roomier panel.",
+  "notes": "Panel layout fits any window height.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Panel opens with a smooth animation that grows out of the floating button, and shrinks back when closed",
-    "Bigger, roomier panel with larger text, buttons and Canva preview"
+    "Canva section keeps its full preview; the settings above scroll when space is tight",
+    "Tighter spacing on shorter windows"
   ],
   "fixed": [
-    "Send to Canva sometimes sent your input photo instead of the image ChatGPT generated"
+    "Send to Canva and the bottom buttons could be cut off or overlap on shorter windows"
   ],
   "history": [
+    {
+      "version": "2.5.0",
+      "added": [
+        "Panel opens with a smooth animation that grows out of the floating button, and shrinks back when closed",
+        "Bigger, roomier panel with larger text, buttons and Canva preview"
+      ],
+      "fixed": [
+        "Send to Canva sometimes sent your input photo instead of the image ChatGPT generated"
+      ]
+    },
     {
       "version": "2.4.0",
       "added": [
