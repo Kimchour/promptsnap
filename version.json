@@ -1,17 +1,28 @@
 {
-  "version": "2.5.1",
+  "version": "2.6.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Panel layout fits any window height.",
+  "notes": "Compact panel by default, with a size setting.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Canva section keeps its full preview; the settings above scroll when space is tight",
-    "Tighter spacing on shorter windows"
+    "Panel size setting (Small / Medium / Large) in the gear menu",
+    "Small is the new default — about 360px wide so it doesn't cover the chat"
   ],
   "fixed": [
-    "Send to Canva and the bottom buttons could be cut off or overlap on shorter windows"
+    "Panel took up almost the whole screen on laptops and scaled displays",
+    "\"Insert into chat\" button wrapped onto two lines"
   ],
   "history": [
+    {
+      "version": "2.5.1",
+      "added": [
+        "Canva section keeps its full preview; the settings above scroll when space is tight",
+        "Tighter spacing on shorter windows"
+      ],
+      "fixed": [
+        "Send to Canva and the bottom buttons could be cut off or overlap on shorter windows"
+      ]
+    },
     {
       "version": "2.5.0",
       "added": [
