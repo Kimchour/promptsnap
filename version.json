@@ -1,31 +1,43 @@
 {
-  "version": "2.7.0",
+  "version": "2.7.1",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Smoother, lighter animations across the whole extension.",
+  "notes": "Fixes live % tracking on ChatGPT's newer image screen.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Animations run on the GPU, so they stay smooth while ChatGPT is busy generating",
-    "Settings, Suggestions and the update banner slide open and closed instead of jumping",
-    "Canva section opens and folds as one piece — Send to Canva no longer pops in and out",
-    "Progress ring sweeps smoothly and the % counts up between readings",
-    "Settings options glide a highlight to your new choice",
-    "Theme and panel-size changes ease across instead of flashing",
-    "Confetti flutters like paper, and Image Ready waits to play until you're back on the tab",
-    "Softer press feedback on buttons and chips, and a gentle focus glow on inputs",
-    "Smoother panel dragging that always keeps the panel on screen"
+    "Recognises ChatGPT's \"Adding final touches\" stage"
   ],
   "fixed": [
-    "Update Now, Later and × in the update window couldn't be clicked — an invisible layer covered them",
-    "Floating button's hover lift never showed",
-    "Sparks around the floating button jumped when you hovered it",
-    "Progress bar at the top of the panel was hidden behind the header",
-    "Update window and Image Ready screen vanished abruptly when closed",
-    "An empty Canva preview card showed when no design was open",
-    "Panel could be dragged off-screen and lost",
-    "Selected options in light theme showed grey text on green and were hard to read"
+    "Live % stopped showing on ChatGPT's newer image screen — PromptSnap now finds the chat wherever ChatGPT places it",
+    "The % wasn't read when ChatGPT draws the number and the % sign separately",
+    "The finished image wasn't detected, so there was no Image Ready and Send to Canva said \"No generated image yet\"",
+    "Other extensions' % labels on the page can never start the tracker by mistake"
   ],
   "history": [
+    {
+      "version": "2.7.0",
+      "added": [
+        "Animations run on the GPU, so they stay smooth while ChatGPT is busy generating",
+        "Settings, Suggestions and the update banner slide open and closed instead of jumping",
+        "Canva section opens and folds as one piece — Send to Canva no longer pops in and out",
+        "Progress ring sweeps smoothly and the % counts up between readings",
+        "Settings options glide a highlight to your new choice",
+        "Theme and panel-size changes ease across instead of flashing",
+        "Confetti flutters like paper, and Image Ready waits to play until you're back on the tab",
+        "Softer press feedback on buttons and chips, and a gentle focus glow on inputs",
+        "Smoother panel dragging that always keeps the panel on screen"
+      ],
+      "fixed": [
+        "Update Now, Later and × in the update window couldn't be clicked — an invisible layer covered them",
+        "Floating button's hover lift never showed",
+        "Sparks around the floating button jumped when you hovered it",
+        "Progress bar at the top of the panel was hidden behind the header",
+        "Update window and Image Ready screen vanished abruptly when closed",
+        "An empty Canva preview card showed when no design was open",
+        "Panel could be dragged off-screen and lost",
+        "Selected options in light theme showed grey text on green and were hard to read"
+      ]
+    },
     {
       "version": "2.6.0",
       "added": [
