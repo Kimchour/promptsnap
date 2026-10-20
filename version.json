@@ -1,18 +1,42 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "Compact panel by default, with a size setting.",
+  "notes": "Smoother, lighter animations across the whole extension.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Panel size setting (Small / Medium / Large) in the gear menu",
-    "Small is the new default — about 360px wide so it doesn't cover the chat"
+    "Animations run on the GPU, so they stay smooth while ChatGPT is busy generating",
+    "Settings, Suggestions and the update banner slide open and closed instead of jumping",
+    "Canva section opens and folds as one piece — Send to Canva no longer pops in and out",
+    "Progress ring sweeps smoothly and the % counts up between readings",
+    "Settings options glide a highlight to your new choice",
+    "Theme and panel-size changes ease across instead of flashing",
+    "Confetti flutters like paper, and Image Ready waits to play until you're back on the tab",
+    "Softer press feedback on buttons and chips, and a gentle focus glow on inputs",
+    "Smoother panel dragging that always keeps the panel on screen"
   ],
   "fixed": [
-    "Panel took up almost the whole screen on laptops and scaled displays",
-    "\"Insert into chat\" button wrapped onto two lines"
+    "Update Now, Later and × in the update window couldn't be clicked — an invisible layer covered them",
+    "Floating button's hover lift never showed",
+    "Sparks around the floating button jumped when you hovered it",
+    "Progress bar at the top of the panel was hidden behind the header",
+    "Update window and Image Ready screen vanished abruptly when closed",
+    "An empty Canva preview card showed when no design was open",
+    "Panel could be dragged off-screen and lost",
+    "Selected options in light theme showed grey text on green and were hard to read"
   ],
   "history": [
+    {
+      "version": "2.6.0",
+      "added": [
+        "Panel size setting (Small / Medium / Large) in the gear menu",
+        "Small is the new default — about 360px wide so it doesn't cover the chat"
+      ],
+      "fixed": [
+        "Panel took up almost the whole screen on laptops and scaled displays",
+        "\"Insert into chat\" button wrapped onto two lines"
+      ]
+    },
     {
       "version": "2.5.1",
       "added": [
