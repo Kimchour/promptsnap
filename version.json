@@ -1,24 +1,44 @@
 {
-  "version": "2.8.0",
+  "version": "3.0.0",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "A live view of every image while ChatGPT makes it.",
+  "notes": "A cleaner, calmer redesign — smoother, much lighter, and several long-standing bugs fixed.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Live progress card in the panel: ChatGPT's own stage (\"Sketching it out\"…), the %, elapsed time and time left",
-    "A dot picture on the card fills in as your image is made",
-    "Time left learns from your recent images, so it gets more accurate the more you use it",
-    "The browser tab's icon becomes a progress ring — watch it from any other tab; it turns into a ✓ when ready",
-    "The tab title shows the % and time left",
-    "Floating button: a glowing tip rides the ring, and the ring warms from amber to green as it nears done",
-    "Hover the floating button while the panel is closed to see the stage and time left",
-    "If ChatGPT pauses, the card says \"still working…\" and the ring breathes slowly instead of looking frozen",
-    "A ✓ draws itself on the button when the image is ready, and the card offers a View button to jump to it"
+    "Fresh, simpler design: calmer colours, clear labels, a brand header, and icon buttons for Reset and Copy",
+    "Selections glide: the aspect-ratio and settings highlights slide over to your new choice",
+    "The final prompt briefly highlights the words that just changed, so you can see where your pick landed",
+    "Buttons ripple where you press; Copy turns into a ✓ and Send's paper plane takes off",
+    "The panel opens with a gentle cascade, and new fields fade in when you switch presets",
+    "Much lighter on your computer: animations run on the graphics chip and idle work dropped sharply"
   ],
   "fixed": [
-    "Finished-image card and tab ✓ wait until you come back to the tab instead of disappearing unseen"
+    "Animation set to Off also switched off ChatGPT's own animations",
+    "An invisible strip next to the floating button blocked clicks on ChatGPT",
+    "Ctrl+Enter in ChatGPT's own message box added PromptSnap's prompt to your message and sent it",
+    "Copy could say \"Copied\" even when nothing was copied",
+    "A dragged panel could be left off-screen after making the window smaller",
+    "The Canva preview's loading shimmer kept using CPU with the section closed",
+    "Settings were saved on every single keystroke"
   ],
   "history": [
+    {
+      "version": "2.8.0",
+      "added": [
+        "Live progress card in the panel: ChatGPT's own stage (\"Sketching it out\"…), the %, elapsed time and time left",
+        "A dot picture on the card fills in as your image is made",
+        "Time left learns from your recent images, so it gets more accurate the more you use it",
+        "The browser tab's icon becomes a progress ring — watch it from any other tab; it turns into a ✓ when ready",
+        "The tab title shows the % and time left",
+        "Floating button: a glowing tip rides the ring, and the ring warms from amber to green as it nears done",
+        "Hover the floating button while the panel is closed to see the stage and time left",
+        "If ChatGPT pauses, the card says \"still working…\" and the ring breathes slowly instead of looking frozen",
+        "A ✓ draws itself on the button when the image is ready, and the card offers a View button to jump to it"
+      ],
+      "fixed": [
+        "Finished-image card and tab ✓ wait until you come back to the tab instead of disappearing unseen"
+      ]
+    },
     {
       "version": "2.7.1",
       "added": [
