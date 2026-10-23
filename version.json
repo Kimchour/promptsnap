@@ -1,29 +1,43 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "download_url": "https://github.com/Kimchour/promptsnap/raw/main/promptsnap-extension.zip",
-  "notes": "A brand-new preset library: 105 presets with a before → after preview for each, search, favourites and your own presets.",
+  "notes": "A much faster preset library — same look, same animations, far less work for your computer.",
   "required": false,
   "needs_reload": true,
   "added": [
-    "Preset library: browse every preset in a gallery, sorted into 9 categories (Enhance, Edit, Portrait, Product, Style, Social, Aviation, Story, Utility)",
-    "Every preset shows a before → after preview of what it does. Move your mouse across a preview to compare",
-    "59 new presets, including sky replacement, season and weather changes, headshots, passport-style photos, product packshots, food photos, 10 art styles, social formats and new aviation and story shots",
-    "Search by name, tag or description, in English or Khmer",
-    "Star your favourites. They also appear as one-tap thumbnails under the preset card",
-    "Recent shows what you used lately",
-    "My presets: save your own prompts. Words in {curly brackets} become fields, and you pick a preview picture",
-    "Duplicate & edit any preset to make your own version of it",
-    "The picked preset's preview flies into the panel, and its fields fade in",
-    "Keyboard friendly: type to search, use the arrow keys to move, Enter to choose, Esc to close. ← → on the preset card steps through presets",
-    "New suggestion chips for the new fields (sky, season, outfit, backdrop and more)"
+    "The library's previews are now drawn once into small pictures in the background, instead of being re-drawn every time they move — opening, scrolling and comparing are much lighter",
+    "The library is prepared quietly after you open the panel, so it opens without a pause",
+    "Previews, your favourites row and the library itself no longer take memory in tabs where you never open PromptSnap"
   ],
   "fixed": [
-    "Choosing \"Keep original\" ratio left \"aspect ratio Keep original\" in most prompts",
-    "Picking no photo style could leave \"Shot in —.\" in the prompt",
-    "Text-Safe Background offered aviation camera angles for the empty side; it now offers left, right, top…",
-    "Switching presets no longer highlights every word of the new prompt"
+    "The library felt laggy: a full-screen blur was being redrawn 60 times a second while it was open",
+    "A card could flicker up and down under a resting mouse pointer",
+    "Every opening rebuilt all 105 cards from scratch",
+    "Memory kept growing after browsing the whole library (about 110 MB of pictures stayed loaded)"
   ],
   "history": [
+    {
+      "version": "3.1.0",
+      "added": [
+        "Preset library: browse every preset in a gallery, sorted into 9 categories (Enhance, Edit, Portrait, Product, Style, Social, Aviation, Story, Utility)",
+        "Every preset shows a before → after preview of what it does. Move your mouse across a preview to compare",
+        "59 new presets, including sky replacement, season and weather changes, headshots, passport-style photos, product packshots, food photos, 10 art styles, social formats and new aviation and story shots",
+        "Search by name, tag or description, in English or Khmer",
+        "Star your favourites. They also appear as one-tap thumbnails under the preset card",
+        "Recent shows what you used lately",
+        "My presets: save your own prompts. Words in {curly brackets} become fields, and you pick a preview picture",
+        "Duplicate & edit any preset to make your own version of it",
+        "The picked preset's preview flies into the panel, and its fields fade in",
+        "Keyboard friendly: type to search, use the arrow keys to move, Enter to choose, Esc to close. ← → on the preset card steps through presets",
+        "New suggestion chips for the new fields (sky, season, outfit, backdrop and more)"
+      ],
+      "fixed": [
+        "Choosing \"Keep original\" ratio left \"aspect ratio Keep original\" in most prompts",
+        "Picking no photo style could leave \"Shot in —.\" in the prompt",
+        "Text-Safe Background offered aviation camera angles for the empty side; it now offers left, right, top…",
+        "Switching presets no longer highlights every word of the new prompt"
+      ]
+    },
     {
       "version": "3.0.0",
       "added": [
